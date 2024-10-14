@@ -13,7 +13,7 @@
 An expense tracker application built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. This app provides users with a simple and effective way to manage their finances. 
 
 
-<!-- ![Current MVP](/src/assets/mvp-expense-app-1.png) -->
+<!-- ![Current MVP](/src/assets/mvp-expense-1.png) -->
 
 <div style="text-align: center;">
   <img src="src/assets/mvp-expense-app-1.png" alt="Current MVP" title="Current MVP" width="300" />
