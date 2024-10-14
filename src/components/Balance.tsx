@@ -7,7 +7,7 @@ export const Balance = () => {
     <>
     <div className="text-slate-800 pt-5 pb-5">
     <BasicText title="Your Balance" />
-    <MoneySmall value={500} />
+    <MoneySmall value={2954.22} />
     </div>
 </>
   )

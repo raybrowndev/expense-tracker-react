@@ -1,5 +1,15 @@
 # Expense Tracker
 
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+
+
 An expense tracker application built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. This app provides users with a simple and effective way to manage their finances. 
 
 
@@ -8,7 +18,6 @@ An expense tracker application built with **React**, **TypeScript**, **Tailwind 
 <div style="text-align: center;">
   <img src="src/assets/mvp-expense-app-1.png" alt="Current MVP" title="Current MVP" width="300" />
 </div>
-
 
 ## Features
 
@@ -31,7 +40,7 @@ An expense tracker application built with **React**, **TypeScript**, **Tailwind 
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/raybrowndev/expense-tracker-react.git>
 cd <expense-tracker-react>
 npm install
 ```
