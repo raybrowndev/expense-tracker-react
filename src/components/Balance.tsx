@@ -1,5 +1,5 @@
 import React from 'react';
-import { MoneySmall } from './Money';
+import { MoneySmallIncome } from './Money';
 import { BasicText } from './Header';
 
 export const Balance = () => {
@@ -7,7 +7,7 @@ export const Balance = () => {
     <>
     <div className="text-slate-800 pt-5 pb-5">
     <BasicText title="Your Balance" />
-    <MoneySmall value={2954.22} />
+    <MoneySmallIncome value={2954.22} />
     </div>
 </>
   )

@@ -23,6 +23,20 @@ export const IncomeExpenses = () => {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // <div className="income-expense-container">
 // <div className="income">
 //     <h4>Income</h4>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Header } from './components/Header' 
 import { Balance } from './components/Balance' 
-import { IncomeExpenses } from './components/IncomeExpenses';
+import { IncomeExpenses} from './components/IncomeExpenses';
+import { MoneySmallExpense } from './components/Money';
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
       <Header title="Expense App" />
         <div className="container">
           <Balance />
+          Balance History 
+          <MoneySmallExpense value={18.99} />
           <IncomeExpenses />
         </div>
-
     </div>
     </>
   )

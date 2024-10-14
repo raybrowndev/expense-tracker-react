@@ -32,10 +32,18 @@ export const MoneyLargeIncome: React.FC<MoneyProps> = ({value}) => {
     )
   }
 
-  export const MoneySmall: React.FC<MoneyProps> = ({value}) => {
+  export const MoneySmallIncome: React.FC<MoneyProps> = ({value}) => {
     return (
       <>
-          <h1 className="text-lg font-bold text-slate-800">{formatCurrency(value)}</h1>
+          <h1 className="text-base font-bold text-green-500">{formatCurrency(value)}</h1>
       </>
     )
-  }
+    }
+
+  export const MoneySmallExpense: React.FC<MoneyProps> = ({value}) => {
+    return (
+      <>
+          <h1 className="font-bold text-red-500">-{formatCurrency(value)}</h1>
+      </>
+    )
+    }
