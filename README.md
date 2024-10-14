@@ -16,7 +16,7 @@ An expense tracker application built with **React**, **TypeScript**, **Tailwind 
 <!-- ![Current MVP](/src/assets/mvp-expense-1.png) -->
 
 <div style="text-align: center;">
-  <img src="src/assets/mvp-expense-app-1.png" alt="Current MVP" title="Current MVP" width="300" />
+  <img src="src/assets/mvp-expense-tracker-1.png" alt="Current MVP" title="Current MVP" width="300" />
 </div>
 
 ## Features
