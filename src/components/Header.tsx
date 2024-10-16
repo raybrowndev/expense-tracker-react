@@ -7,7 +7,7 @@ type HeaderProps = {
 
 export const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <div className="text-pink-500 mb-4">
+    <div className="mb-4">
       <h1 className="text-5xl font-bold">{title}</h1>
     </div>
   )
@@ -17,7 +17,7 @@ export const Header: React.FC<HeaderProps> = ({ title }) => {
 export const BasicText: React.FC<HeaderProps> = ({ title }) => {
   return (
     <div>
-      <p className="text-xl text-black leading-relaxed tracking-normal">{title}</p>
+      <p className="text-xl leading-relaxed tracking-normal">{title}</p>
     </div>
   )
 }

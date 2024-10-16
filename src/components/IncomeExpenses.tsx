@@ -5,7 +5,7 @@ import { MoneyLargeIncome, MoneyLargeExpense } from './Money';
 export const IncomeExpenses = () => {
   return (
     <>
-        <div className="max-w-md mx-auto bg-white border-0 rounded-lg shadow-inner shadow-md p-6">
+        <div className="max-w-md bg-white border-0 rounded-lg shadow-inner shadow-md p-6">
           <div className="grid grid-cols-2 gap-4">
             <div className="income flex flex-col items-center">
               <h2 className="money-plus text-xl font-bold text-slate-800">Income</h2>

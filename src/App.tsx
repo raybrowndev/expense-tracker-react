@@ -5,13 +5,19 @@ import { IncomeExpenses} from './components/IncomeExpenses';
 import { MoneySmallExpense } from './components/Money';
 import TransactionList from './components/TransactionList';
 import AddTransaction from './components/AddTransaction';
+import { GlobalProvider } from './context/GlobalState';
+import './App.css'
 
 
 function App() {
   return (
     <>
-    <div className="bg-pink-200"> 
-    <div className="h-screen p-7 mx-auto w-full max-w-md"> 
+    <GlobalProvider>
+    <h1 className="text-3xl text-pink-300 font-bold underline">
+    Hello world! Testing here ... 
+  </h1>
+    <div className=""> 
+    <div className="h-screen p-7 mx-auto w-full"> 
       <Header title="Expense App" />
         <div className="container">
           <Balance />
@@ -23,6 +29,7 @@ function App() {
         </div>
     </div>
     </div>
+    </GlobalProvider>
     </>
   )
 }

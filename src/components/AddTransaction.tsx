@@ -12,6 +12,7 @@ const AddTransaction = () => {
             <div className="form-control">
                 <label htmlFor="text" className="text">Description</label>
                 <input 
+                className="bg-pink-400"
                 type="text" 
                 value={text} 
                 onChange={(e) => setText(e.target.value)} 
