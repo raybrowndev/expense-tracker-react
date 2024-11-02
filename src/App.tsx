@@ -6,6 +6,7 @@ import { MoneySmallExpense } from './components/Money';
 import TransactionList from './components/TransactionList';
 import AddTransaction from './components/AddTransaction';
 import { GlobalProvider } from './context/GlobalState';
+import { TestTester, Counter, Toggle, InputTracker } from './components/testTester';
 
 
 
@@ -15,6 +16,11 @@ function App() {
     <GlobalProvider>
     <div className=""> 
     <div className="h-screen p-7 mx-auto w-full"> 
+    <TestTester />
+    <Counter />
+    <Toggle />
+    <InputTracker />
+
       <Header title="Expense App" />
         <div className="container">
           <Balance />
