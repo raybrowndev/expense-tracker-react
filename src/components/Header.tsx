@@ -13,6 +13,14 @@ export const Header: React.FC<HeaderProps> = ({ title }) => {
   )
 }
 
+export const Header2: React.FC<HeaderProps> = ({ title }) => {
+  return (
+    <div className="mb-4">
+      <h1 className="text-2xl font-bold text-slate-800">{title}</h1>
+    </div>
+  )
+}
+
 
 export const BasicText: React.FC<HeaderProps> = ({ title }) => {
   return (
